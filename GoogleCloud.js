@@ -74,7 +74,7 @@ async function buildImageRequestJSON(imageURL) {
         features: [
             {
                 type: "LABEL_DETECTION",
-                maxResults: 3
+                maxResults: 10
             }, 
             {
                 type: "IMAGE_PROPERTIES"
