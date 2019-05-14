@@ -81,6 +81,9 @@ async function buildImageRequestJSON(imageURL) {
             },
             {
                 type: "FACE_DETECTION"
+            },
+            {
+                type: "OBJECT_LOCALIZATION"
             }
         ]
     };
