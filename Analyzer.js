@@ -3,7 +3,7 @@ var GoogleCloud = require('./GoogleCloud');
 // ---------- PUBLIC ------------
 
 async function analyzeImages(media) {
-    var images = await packageImages(media, 4);
+    var images = await packageImages(media, 25);
     return processImageAnalyses(images);
 }
 
