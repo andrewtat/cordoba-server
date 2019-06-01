@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/andrewtat/cordoba-server#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.0.0",
     "express": "^4.16.4",
     "node-fetch": "^2.5.0"
